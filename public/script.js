@@ -92,7 +92,7 @@ function handleUpload(file) {
         }
         const src = window.location.origin + data[0].src;
         if (src.length) {
-          localStorage.set("img",src)
+          localStorage.setItem("img",src)
         }
         uploadStatus.innerHTML = `
         <div class="alert alert-success text-center">Successful 🥳</div>
