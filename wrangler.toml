@@ -6,7 +6,7 @@ main = "src/index.ts"
 API_HOST = "https://telegra.ph"
 
 [env.dev.vars]
-API_HOST = "https://images.mingming.dev"
+API_HOST = "https://pic.capcat.top"
 
 [site]
 bucket = "./public"
